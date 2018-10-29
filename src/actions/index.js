@@ -10,14 +10,8 @@ export const makeGuess = guess => ({
         guess
 });
 
-export const FEEDBACK = 'FEEDBACK';
-export const feedback = feedback => ({
-    type: FEEDBACK,
-    feedback
-});
-
 export const AURAL_UPDATE = 'AURAL_UPDATE';
-export const auralUpdate = status => ({
+export const auralUpdate = auralStatus => ({
     type: AURAL_UPDATE,
-    status
+    auralStatus
 });
